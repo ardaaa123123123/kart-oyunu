@@ -19,7 +19,7 @@ body { background-color: #121212; color: white; font-family: sans-serif; }
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
+} <link rel="stylesheet" href="style.css">
 
 #game-info {
   text-align: center;
