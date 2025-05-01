@@ -1,1 +1,27 @@
 body { background-color: #121212; color: white; font-family: sans-serif; }
+#game-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-hand, .opponent-hand {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  background-color: lightblue;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#game-info {
+  text-align: center;
+  margin: 20px;
+}
