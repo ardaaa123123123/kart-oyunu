@@ -53,3 +53,31 @@ function updateHealth(player, opponent) {
 // Başlangıçta kartları yükle
 loadCards();
 // İstemci tarafı kart oyunu kodları buraya gelecek
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kart Oyunu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="game-title">Oyun Başlıyor!</h1>
+  
+  <!-- Oyuncuların sağlık göstergeleri -->
+  <div id="player-info">
+    <p>Oyuncu: <span id="player-health">100</span> HP</p>
+  </div>
+  
+  <div id="opponent-info">
+    <p>Rakip: <span id="opponent-health">100</span> HP</p>
+  </div>
+
+  <!-- Kartlar -->
+  <div class="player-hand">
+    <!-- Kartlar burada görünecek -->
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
