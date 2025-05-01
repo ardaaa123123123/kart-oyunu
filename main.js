@@ -60,8 +60,6 @@ loadCards();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kart Oyunu</title>
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
   <h1 id="game-title">Oyun Başlıyor!</h1>
   
   <!-- Oyuncuların sağlık göstergeleri -->
@@ -80,4 +78,4 @@ loadCards();
 
   <script src="main.js"></script>
 </body>
-</html>
+
